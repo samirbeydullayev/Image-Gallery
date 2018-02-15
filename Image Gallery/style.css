@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration:none;
+}
+.container{
+    width: 80%;
+    margin: 10% auto;
+}
+.head{
+    position: relative;
+}
+.head h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.head hr{
+    position: absolute;
+    left: 41%;
+    width: 18%;
+    margin-top: 1%;
+    padding: 1px;
+    background: #3CD27B;
+    border: #3CD27B;
+}
+.navbar{
+    margin-top: 4%;
+    margin-left: 25%;
+    background-color: #3CD27B;
+ 
+}
+.navbar ul li{
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #26A45B;
+    background: #3CD27B;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+.navbar ul li:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.navbar ul li:last-child{
+    margin-right: 0;
+    border-right: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navbar ul li:hover{
+    background: #26a45b;
+
+
+}
+.clear{
+    clear: both;
+
+}
+ .gallery{
+     margin-top: 5%;
+     height: 750px;
+     width: 100%
+ }
+.gallery div.divs{
+    width: 21%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    height: 220px;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    
+}
+/* .gallery div:nth-of-type(4n){
+    margin-right: 0%;
+} */
+.gallery div .number{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding-top: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius:5px;
+    color: aliceblue;
+}
+.gallery  div .string{
+    position: absolute ;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 7%;
+    transition: all 0.8s linear
+
+}
+.gallery div.divs img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    filter: grayscale(1);
+    transition: filter 1s ease;
+    cursor: pointer;
+}
+.gallery div.divs img:hover{
+    filter:none;
+  
+}
+
+.gallery  div .string:hover{
+    height: 100%;
+    padding-top: 50%;
+    letter-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
+   
+}
+
+ 
+
+
